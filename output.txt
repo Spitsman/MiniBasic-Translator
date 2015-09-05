@@ -1,0 +1,45 @@
+include\masm32\include\masm32rt.inc
+
+.data?
+
+.data
+
+x0 dd 0
+x286  dd  15
+x287  dd  0
+x288  dd  0
+x289  dd  0
+
+.code
+start:
+
+call main
+inkey
+exit 
+
+main proc 
+
+
+line26:
+mov eax, x286
+add eax,x133
+mov x288, eax
+mov eax, x167
+cmp eax, x288
+jle line41
+
+line41:
+mov eax, x18
+cmp eax, x0
+je line228
+jmp line322
+line228:
+print "yes"
+jmp line155
+line322:
+print "no"
+line155:
+ret
+main endp 
+
+end start

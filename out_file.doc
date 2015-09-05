@@ -1,0 +1,20 @@
+Lexemes: 
+label         26
+if            
+operand       167
+ratio         5
+operand       286
+operation     1
+operand       133
+goto          41
+label         41
+end           
+endfile       
+
+Operands: 
+Constants: 
+286. 15
+
+Strings:
+26.  26 25 -1
+41.  41 40 -1

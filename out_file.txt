@@ -1,0 +1,77 @@
+Lexemes: 
+label         11
+let           14
+operand       286
+label         21
+let           13
+operand       287
+label         31
+let           20
+operand       288
+label         41
+let           72
+operand       13
+label         51
+if            
+operand       72
+ratio         1
+operand       289
+goto          91
+label         61
+let           20
+operand       20
+operation     3
+operand       290
+operation     1
+left_bracket  
+operand       72
+operation     2
+left_bracket  
+operand       72
+operation     4
+operand       291
+right_bracket 291
+operation     3
+operand       292
+right_bracket 292
+label         71
+let           72
+operand       72
+operation     4
+operand       293
+label         81
+goto          51
+label         91
+let           18
+operand       20
+operation     2
+operand       14
+label         1
+end           
+endfile       
+
+Operands: 
+13. 1
+14. 1
+18. 1
+20. 1
+72. 1
+Constants: 
+286. 123
+287. 320
+290. 10
+291. 10
+292. 10
+293. 10
+
+Strings:
+1.  1 100 -1
+11.  11 10 -1
+21.  21 20 -1
+31.  31 30 -1
+41.  41 40 -1
+51.  51 50 -1
+61.  61 60 -1
+71.  71 70 -1
+81.  81 80 -1
+91.  91 90 -1
